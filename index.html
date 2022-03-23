@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tukki Musikki ja Tanssi</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="main-area">
-	<h1 class="header">Turkkin Aluet</h1>
+	<h1 class="header">Turkin Aluet ja Musiikki Kulttuuri</h1>
+	<small>Napsauta karttaa saadaksesi tietoa alueesta</small>
 	<div class="map">
 		<?xml version="1.0" encoding="utf-8"?>
 		<svg version="1.1" id="katman_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" class="mapdiv"
-			xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 900 600"
-			width="" >
+			xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 900 600">
 					<g>
 						<g>
 							<path class="st0" d="M377.5,466.3l-0.4,0.5l0.2-0.3L377.5,466.3z"/>
@@ -394,7 +395,50 @@
 
 		</svg>
 	</div>
-  <div class="footer">Made by <a class="personal-link"  href="https://github.com/uixcem" rel="noopener noreferrer" target="_blank">unixcem</a> & <a class="personal-link" href="https://github.com/jokerinya" rel="noopener noreferrer" target="_blank">jokerinya</a> with love🤟🏼 for EP-Opisto</div>
+	<div class="main-container">
+		<div class="heading">
+			<h1 class="heading__title">Suosituimmat Turkkilaiset Musiikkilistat</h1>
+		</div>
+		<div class="cards">
+			<div class="card card-1">
+				<div class="card__icon"><i class="fas fa-bolt"></i></div>
+				<p class="card__exit"><i class="fas fa-globe-europe"></i></p>
+				<h2 class="card__title">Tiesitkö, että Turkki voitti Euroviisujen mestaruuden vuonna 2003? Lisäksi on monia Euroviisututkintoja. Tässä on luettelomme sinulle.</h2>
+				<p class="card__apply">
+					<a class="card__link" href="https://www.youtube.com/playlist?list=PLCSOQk-aNhBpBVAyVazVJimwfcN0xu3Jw" target="_blank" rel="noopener noreferrer">Kuuntele YouTubestä <i class="fab fa-youtube"></i> <i class="fas fa-arrow-right"></i></a>
+				</p>
+			</div>
+			<div class="card card-2">
+				<div class="card__icon"><i class="fas fa-bolt"></i></div>
+				<p class="card__exit"><i class="fas fa-guitar"></i></p>
+				<h2 class="card__title">Vaikka turkkilaiset eivät yhtä paljon kuin suomalaiset, myös turkkilaiset pitävät rockmusiikista. Olemme varmoja, että löydät monia kappaleita, joista pidät.</h2>
+				<p class="card__apply">
+					<a class="card__link" href="https://www.youtube.com/playlist?list=PLkpHya-Gto4KbYZhJ7qgRIyxo0Of7xynf" target="_blank" rel="noopener noreferrer">Kuuntele YouTubestä <i class="fab fa-youtube"></i> <i class="fas fa-arrow-right"></i></a>
+				</p>
+			</div>
+			<div class="card card-3">
+				<div class="card__icon"><i class="fas fa-bolt"></i></div>
+				<p class="card__exit"><i class="fas fa-music"></i></p>
+				<h2 class="card__title">Tässä ovat kappaleet, joiden uskomme rakastavan popmusiikkigenressä. Lista on tietysti vähän täynnä.<i class="fas fa-grin-beam-sweat"></i></h2>
+				<p class="card__apply">
+					<a class="card__link" href="https://www.youtube.com/playlist?list=PLkpHya-Gto4KkeNkX530WnnDSfTxMUS6r" target="_blank" rel="noopener noreferrer">Kuuntele YouTubestä <i class="fab fa-youtube"></i> <i class="fas fa-arrow-right"></i></a>
+				</p>
+			</div>
+			<div class="card card-4">
+				<div class="card__icon"><i class="fas fa-bolt"></i></div>
+				<p class="card__exit"><i class="fas fa-dove"></i></p>
+				<h2 class="card__title">Entä instrumentaalimusiikki? Voit olla varma, tunnet rauhan.</h2>
+				<p class="card__apply">
+					<a class="card__link" href="https://www.youtube.com/playlist?list=PLI-HsY9Kbb00i_lA4xB2kq7uOx76d8Ack" target="_blank" rel="noopener noreferrer">Kuuntele YouTubestä <i class="fab fa-youtube"></i> <i class="fas fa-arrow-right"></i></a>
+				</p>
+			</div>
+		</div>
+	</div>
+  <div class="footer">Made by <a class="personal-link"  href="https://github.com/jokerinya" rel="noopener noreferrer" target="_blank">jokerinya</a> & <a class="personal-link" href="https://github.com/uixcem" rel="noopener noreferrer" target="_blank">uixcem</a> with love🤟🏼 for EP-Opisto -
+    <span id="copyright">
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </span>
+	</div>
 </div>
 </body>
 </html>
